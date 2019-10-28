@@ -1,0 +1,71 @@
+/* ================================================
+                Blog Area
+    ==================================================*/
+.blog-area .single-blog {
+  border: 0;
+  margin: 0 !important;
+  padding: 25px 15px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .blog-area .single-blog:hover {
+    cursor: pointer; }
+  .blog-area .single-blog .card-title {
+    margin: 0 !important; }
+  .blog-area .single-blog .blgo-content {
+    position: relative;
+    margin: 30px 0 20px; }
+  .blog-area .single-blog .card-body .posted-by {
+    margin-bottom: 15px;
+    display: block; }
+  .blog-area .single-blog .card-body .read-more {
+    margin: 15px 0 20px; }
+  .blog-area .single-blog.no-image-post {
+    border-radius: 0; }
+    .blog-area .single-blog.no-image-post .inner-wrap {
+      border: 1px solid #5cca8d;
+      padding: 30px 15px; }
+    .blog-area .single-blog.no-image-post .blgo-content {
+      margin: 20px 0; }
+      .blog-area .single-blog.no-image-post .blgo-content .posted-date {
+        position: initial;
+        -webkit-transform: none;
+                transform: none; }
+    @media screen and (max-width: 767px) {
+      .blog-area .single-blog.no-image-post {
+        padding: 30px 10px; } }
+  .blog-area .single-blog.video-post .blgo-content {
+    position: relative; }
+    .blog-area .single-blog.video-post .blgo-content .video-overlay {
+      position: relative; }
+      .blog-area .single-blog.video-post .blgo-content .video-overlay::before {
+        content: '\f01d';
+        font-family: 'FontAwesome';
+        font-size: 36px;
+        color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+  .blog-area .single-blog.slider-blog .blgo-content .posted-date {
+    bottom: 8px; }
+.blog-area .blog-pagination .page-item.disabled {
+  opacity: 0.5; }
+.blog-area .blog-pagination .page-link {
+  color: #111111;
+  font-weight: bold;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease; }
+  .blog-area .blog-pagination .page-link:hover {
+    background: transparent;
+    color: #5cca8d; }
